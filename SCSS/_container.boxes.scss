@@ -1,0 +1,46 @@
+@use "variables";
+
+.container.boxes {
+    margin: 0;
+    width: 100%;
+
+        &.boxes-4 {
+            gap: 22px;
+            &.bg-white {
+                background-color: variables.$color-white;
+                border-radius: 4.308px;
+                box-shadow: 0px 3.163px 16.869px 0px variables.$color-green1;
+                width: 142.071px;
+                height: 127.61px;
+                padding: 15px;
+                margin-left: 3px;
+
+                &.border {
+                    width: 25.326px;
+                    height: 25.326px;
+                    background: variables.$color-green1; 
+                    border-radius: 4.308px;
+                    margin: 0 0 5px 0;
+                }
+            }
+
+        &.bg-none {
+            width: 144.071px;
+            height: 127.61px;
+            padding: 15px;
+
+                &.paragraph-no-shadow {
+                    color: variables.$Gray-1, #333;
+                    font-size: variables.$font-12;
+                    font-weight: variables.$weight-5;
+                    font-variant: small-caps;
+                }
+        }   
+        }
+
+        @media screen and (min-width: 570px) {
+            width: 50%;
+            margin: 0;
+            padding: 0;
+        }
+}

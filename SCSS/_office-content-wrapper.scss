@@ -1,0 +1,81 @@
+
+
+.office-content-wrapper {
+    margin-bottom: 45px;
+
+        &.positioned {
+            position: relative;
+        
+                &.office-picture {
+                    width: 286.234px;
+                    height: 277.083px;
+                    left: -241px;
+                    position: absolute;
+
+                    @media screen and (min-width: 470px) {
+                        left: -174px;
+                    }
+                    
+                }
+            &.positioned img {
+            @media screen and (min-width: 570px) {
+                width: 50%;
+            }
+            }
+
+        @media screen and (min-width: 800px) {
+            width: 50%;
+            object-fit: contain;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+                
+        }
+
+        &.office-content {
+            margin-top: 37px;
+            margin-left: 65px;
+                &.office {
+                    font-size: 16px;
+                    margin-top: -22px;
+                }
+                &.Paragraph-office {
+                    padding: 15px;
+
+                    @media screen and (min-width: 800px) {
+                        width: 70%;
+                    }
+                }
+
+                @media screen and (min-width: 470px)
+                {margin-left: 150px;}
+
+                @media screen and (min-width: 720px) {
+                    margin-left: 196px;
+                }
+
+                @media screen and (min-width: 800px) {
+                    width: 50%;
+                    margin: 0;
+                }
+
+                @media screen and (min-width: 900px) {
+                    padding: 10px;
+                }
+
+                @media screen and (min-width: 990px) {
+                    padding: 30px;
+                }
+        }
+
+        @media screen and (min-width: 800px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 900px) {
+            gap: 20px;
+        }
+}

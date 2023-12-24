@@ -1,0 +1,43 @@
+@use "variables";
+
+.header-content {
+    align-items: center;
+
+    &.header-content-wrapper {
+        align-items: center;
+        margin-top: -55px;
+
+        &.header-content-heading{
+            padding: 20px;
+                &.dark-heading {
+                    color: variables.$Gray-1;
+                }
+            &.head-content {
+                padding: 0;
+            }
+            
+            h1 {
+                font-size: 16px;
+                font-weight: variables.$weight-5;
+                font-variant: small-caps;
+            }
+
+            @media screen and (min-width: 570px) {
+                width: 50%;
+                padding: 0;
+            }
+
+            @media screen and (min-width: 990px) {
+                width: 50%;
+                padding: 60px 80px;
+                }
+        }
+        &.header-content-image {
+            padding: 30px;
+        }
+
+        @media screen and (min-width: 570px) {
+            justify-content: center;
+        }
+    }
+}

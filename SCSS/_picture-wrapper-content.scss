@@ -1,0 +1,45 @@
+@use "variables";
+
+.picture-wrapper-content{
+    flex-wrap: nowrap;
+    column-gap: 26px;
+
+        &.picture-wrapper {
+            border-radius: 5.186px;
+            background: linear-gradient(358deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0.00) 25.62%, rgba(100, 123, 100, 0.00) 98.53%), variables.$color-white;
+            position: relative;
+            flex-direction: column;
+            gap: 15px;
+            padding: 15px;
+
+                &.picture-wrapper-image {
+                    width: 103.076px;
+                    height: 173.738px;
+
+                        &.bottom-content {
+                            width: 191px;
+                            height: 41px;
+                            font-size:variables.$font-10; 
+                        }
+                }
+
+                &.name-wrapper-content {
+                    position: absolute;
+                    left: 115px;
+                    top: 32px;
+
+                        &.spec-width {
+                            width: 98px;
+                            height: 13px;
+                        }
+
+                        &.name-wrapper {
+                            color: variables.$Gray-2;
+                            font-size:variables.$font-10;
+                            font-weight:variables.$weight-4;
+                            font-variant: small-caps;
+                            margin-top: -9px;
+                        }
+                }
+        }
+}

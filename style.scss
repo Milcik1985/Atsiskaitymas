@@ -1,0 +1,117 @@
+@use "SCSS/base";
+@use "SCSS/variables";
+
+
+@media screen and (min-width: 570px) {
+
+    a {
+        text-decoration: none;
+        color: variables.$color-gray1;
+        font-size: variables.$font-10;
+        font-weight: variables.$weight-5;
+        font-variant: small-caps;
+    }
+
+    .large-size {
+        gap: 8px;
+    }
+
+    .logo {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+
+
+    .picture-wrapper {
+        width: 50%;
+    }
+
+    .bottom-content {
+        width: 141px
+    }
+
+    .name-wrapper-content {
+        position: absolute;
+        left: 95px;
+        top: 24px;
+    }
+    
+    .spec-width {
+        font-size: variables.$font-8;
+    }
+
+    .name-wrapper {
+        margin-top: -18px;
+        font-size: variables.$font-8;
+    }
+
+    .large {
+        width: 70%;
+    }
+
+
+    .large {
+        width: 55%;
+    }
+
+    }
+
+@media screen and (min-width: 720px) {
+
+    .header-image-wrapper {
+        margin-left: 10px
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .container.boxes {
+        padding: 0;
+    }
+
+    .office-picture {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+
+    .logo {
+        width: 20%;
+    }
+
+    .footer-info {
+        width: 21%;
+    }
+
+    .large {
+        width: 100%;
+    }
+
+    .large-size {
+        gap: 29px;
+        width: 50%;
+    }
+}
+
+ @media screen and (min-width: 990px){
+    .header-image-wrapper {
+        margin-left: 75px;
+    }
+
+    .container.boxes {
+        width: 50%;
+    }
+
+    .picture-wrapper {
+        width: 21%;
+    }
+
+    .container.boxes {
+        width: 35%;
+    }
+    
+}
